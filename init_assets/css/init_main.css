@@ -1,0 +1,406 @@
+/* 
+    NFTinit: Landing
+    Last Update: 07/05/2024
+    @twain
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0B0B0B;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+
+.init_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar_main {
+    margin-top: 24px;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    letter-spacing: -2;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8D8D8D;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navbar_main ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar_main ul li {
+    padding: 8px;
+}
+
+.navbar_main ul li:hover {
+    color: #FFF;
+    cursor: pointer;
+    transition: ease-in 160ms;
+}
+
+.navbar_main .init_download {
+    background: #FFF;
+    border: none;
+    border-radius: 256px;
+    min-width: 140px;
+    font-size: 16px;
+    height: 48px;
+    cursor: pointer;
+    transition: ease-in-out 128ms;
+    font-weight: 300;
+    letter-spacing: -0.32px;
+    margin-right: 16px;
+    
+}
+
+.navbar_main .init_download:hover {
+    background: #BD8AFF;
+    transition: ease-in 128ms;
+}
+
+.navbar_main .init_analytics {
+    background: none;
+    color: #fff;
+    border: #fff 1.6px solid;
+    border-radius: 256px;
+    min-width: 140px;
+    font-size: 16px;
+    height: 48px;
+    cursor: pointer;
+    transition: ease-in-out 160ms;
+    font-weight: 300;
+    letter-spacing: -0.32px;
+}
+
+.navbar_main .init_analytics:hover {
+    background: #afff8a;
+    color: #000;
+    border: #000 1.6px solid;
+    transition: ease-in 160ms;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F3EAFF;
+    letter-spacing: -1.92px;
+    margin-top: 16px;
+}
+
+label {
+    color: #BD8AFF;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.64);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 127.273% */
+    letter-spacing: 0.22px;
+    color: #BD8AFF;
+    border-radius: 256px;
+    background: rgba(189, 138, 255, 0.16);
+    padding: 4px 10px 4px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.init_h1_linear {
+    background: linear-gradient(70deg, #E8D6FF 23.82%, #7000FF 81.41%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.main_hero {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_hero_content {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.main_hero .main_hero_lines {
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.bidding_section_absolute {
+    width: 970px;
+    position: absolute;
+}
+
+.bidding_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bidding_section .bidding_item {
+    width: 242.5px;
+    height: 128px;
+    padding: 24px;
+    box-sizing: border-box;
+    border-top: 0.6px solid transparent;
+    border-bottom: 1px solid #272727;
+    cursor: pointer;
+}
+
+.bidding_section .bidding_item:hover{
+    border-top: 0.6px solid rgba(110, 22, 222, 0.64);
+    background: linear-gradient(180deg, #35165B -44.79%, rgba(53, 22, 91, 0.32) 34.84%, rgba(11, 11, 11, 0.00) 100%);
+    box-shadow: 0px 4px 128px 0px rgba(177, 115, 255, 0.16);
+    transition: ease-in 128ms;
+}
+
+.bidding_section .bidding_item img {
+    height: 29px;
+    width: 29px;
+}
+
+.bidding_section .bidding_item h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.bidding_section .bidding_item p {
+    color: #757575;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 86%;
+    
+}
+
+.main_hero .main_hero_lines .line_left {
+    width: 1px;
+    height: 800px;
+    margin-top: -186px;
+    background: linear-gradient(180deg, rgba(39, 39, 39, 0.00) 0%, rgba(57, 57, 57, 0.50) 50.5%, #27272759 100%);
+}
+
+.blockchain_switcher_main {
+    background: #181818;
+    width: 240px;
+    height: 48px;
+    border-radius: 256px;
+    margin-bottom: 40px;
+    margin-top: -16px;
+}
+
+.blockchain_switcher input {    
+    appearance: none;
+    position: absolute;
+}
+
+.blockchain_switcher {
+    background: #1818187e;
+    border: 0.4px solid #3B3B3B;
+    padding: 4px;
+    border-radius: 256px;
+    box-sizing: border-box;
+    width: 280px;
+    display: flex;
+}
+
+.blockchain_switcher label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockchain_switcher label .img {
+    opacity: 0.4;
+    padding-right: 4px;
+}
+
+.blockchain_switcher input + label {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 107.692% */
+    cursor: pointer;
+    background: none;
+    color: #878787;
+}
+
+.blockchain_switcher input:checked + label {
+    border-radius: 256px;
+    border: 1px solid #b881ff80;
+    background: linear-gradient(140deg, #8322FF 13.28%, #701CDA 91%), #5B6CAA;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.64);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 340;
+    line-height: 14px; /* 107.692% */
+  }
+
+.init_light {
+    position: absolute;
+    z-index: -2;
+    margin-top: -48px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 728px;
+}
+
+
+/* Pricing */
+
+.pricing_container {
+   max-width: 1240px;
+   background: #111111;
+   border-radius: 32px;
+   padding-top: 24px;
+   padding-bottom: 48px;
+   border: 1px solid #2f2f2f62;
+}
+
+.pricing_header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.pricing_header .tab {
+    width: 240px;
+}
+
+.pricing_header .tab h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.pricing_header .tab p {
+    color: #757575;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 86%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 1172px;
+    border-radius: 16px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #151515;
+    border: 1px solid #2F2F2F;
+    margin-top: 16px;
+    box-shadow: 0px 4px 86px 0px rgba(0, 0, 0, 0.86);
+  }
+
+
+.pricing_header_fixed {
+    transition: ease 180ms;
+}
+
+/* Pricing */
+
+/* List */
+.pricing_list {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-bottom: 1px solid #1C1C1C;
+    padding-bottom: 4px;
+
+}
+
+.pricing_list .list {
+    width: 240px;
+}
+
+.pricing_list .list h5 {
+    color: #828282;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: -0.32px;
+}
+
+.pricing_list .list p {
+    color: #5C5C5C;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 86%;
+    line-height: 18px; /* 138.462% */
+}
+/* List */
