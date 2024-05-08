@@ -1,1 +1,2 @@
 #landing
+init_landing
